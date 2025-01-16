@@ -1,5 +1,5 @@
 import { useState } from "react"
-import NavItem from "./NavItem"
+import NavItem from "../components/NavItem"
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
