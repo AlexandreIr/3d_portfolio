@@ -7,6 +7,7 @@ import CanvasLoader from "../components/CanvasLoader"
 import MediaQuery from "react-responsive"
 import { calculateSizes } from "../constants"
 import Target from "../components/Target"
+import ReactLogo from "../components/ReactLogo"
 
 /* eslint-disable react/no-unescaped-entities */
 function Hero() { 
@@ -40,6 +41,7 @@ function Hero() {
                     Math.PI, 0]}/>
                     <group>
                         <Target position={sizes.targetPosition}/>
+                        <ReactLogo position={sizes.reactLogoPosition}/>
                     </group>
                     <ambientLight intensity={0.7} />
                     <directionalLight position={[10, 10, 10]}
