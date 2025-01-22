@@ -1,19 +1,30 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Globe from "react-globe.gl";
 
 import Button from "../components/Button.jsx";
+import gsap from "gsap";
 
 const About = () => {
   const [hasCopied, setHasCopied] = useState(false);
+  const imageRef = useRef(null);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText(" adrian@jsmastery.pro");
+    navigator.clipboard.writeText("alex.silva250@hotmail.com");
     setHasCopied(true);
 
     setTimeout(() => {
       setHasCopied(false);
     }, 2000);
   };
+
+  useEffect(() => {
+    gsap.to(imageRef.current, {
+      rotation: "+=360",
+      duration: 10,
+      repeat: -1,
+      ease: "linear",
+    });
+  }, []);
 
   return (
     <section className="c-space my-20" id="about">
@@ -43,6 +54,7 @@ const About = () => {
               src="assets/grid2.png"
               alt="grid-2"
               className="w-full sm:h-[276px] h-fit object-contain"
+              ref={imageRef}
             />
 
             <div>
@@ -69,13 +81,17 @@ const About = () => {
                 bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
                 labelsData={[
                   {
-                    lat: 40,
-                    lng: -100,
-                    text: "Rjieka, Croatia",
+                    lat: -23.5489,
+                    lng: -46.6388,
+                    text: "Sao Paulo, Brazil",
                     color: "white",
-                    size: 15,
+                    resolution: 5,
+                    dotRadius: 10,
                   },
                 ]}
+                labelSize={3}
+                labelDotRadius={1.2}
+                labelResolution={10}
               />
             </div>
             <div>
@@ -83,7 +99,7 @@ const About = () => {
                 I’m very flexible with time zone communications & locations
               </p>
               <p className="grid-subtext">
-                I&apos;m based in Rjieka, Croatia and open to remote work
+                I&apos;m based in São Paulo, Brazil and open to remote work
                 worldwide.
               </p>
               <Button text="Contact Me" isBeam containerClass="w-full mt-10" />
