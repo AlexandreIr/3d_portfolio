@@ -6,12 +6,12 @@ import { Suspense } from "react"
 import CanvasLoader from "../components/CanvasLoader"
 import MediaQuery from "react-responsive"
 import { calculateSizes } from "../constants"
-import Target from "../components/Target"
 import ReactLogo from "../components/ReactLogo"
 import Cube from "../components/Cube"
 import Rings from "../components/Ring"
 import HeroCamera from "../components/HeroCamera"
 import Button from "../components/Button"
+import Target from "../components/Targer"
 
 /* eslint-disable react/no-unescaped-entities */
 function Hero() { 
@@ -24,7 +24,7 @@ function Hero() {
 
   return (
     <section className="min-h-screen w-full relative
-     flex flex-col overflow-hidden">
+    flex flex-col" id="home">
         <div className="w-full mx-auto flex flex-col 
         sm:mt-36 mt-20 c-space gap-3">
             <p className="text-blue-50 sm:text-2xl 
@@ -34,24 +34,24 @@ function Hero() {
                     Building products & Brands
                 </p>
         </div>
-        <div className="w-full h-full absolute inset-0 mt-24">
+        <div className="w-full h-full absolute inset-0 mt-20">
             <Canvas className="w-full h-full">
                 <Suspense fallback={<CanvasLoader/>}>
-                    <PerspectiveCamera makeDefault position={[0, 0, 20]} />
+                    <PerspectiveCamera makeDefault position={[0, 0, 30]} />
                     <HeroCamera isMobile={isMobile}>
                         <HackerRoom 
                         scale={sizes.deskScale} 
                         position={sizes.deskPosition} 
-                        rotation={[-50, 
+                        rotation={[0.1, 
                         Math.PI, 0]}/>
                     </HeroCamera>
                     <group>
-                        <Target position={sizes.targetPosition}/>
+                        <Target position={sizes.targetPosition}/>	
                         <ReactLogo position={sizes.reactLogoPosition}/>
                         <Cube position={sizes.cubePosition}/>
-                        <Rings position={sizes.ringPosition}/>	
+                        <Rings position={sizes.ringPosition}/>
                     </group>
-                    <ambientLight intensity={0.7} />
+                    <ambientLight intensity={1} />
                     <directionalLight position={[10, 10, 10]}
                     intensity={0.5} />
                 </Suspense>
