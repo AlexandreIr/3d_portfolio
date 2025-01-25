@@ -49,7 +49,7 @@ export const Contact = () => {
         <img
           src="/assets/terminal.png"
           alt="terminal background"
-          className="absolute inset-0 min-h-screen"
+          className="absolute inset-0 min-h-screen max-xl:hidden"
         />
         <div className="contact-container p-14">
           <h3 className="head-text">Let's talk</h3>
