@@ -28,10 +28,10 @@ function Hero() {
         <div className="w-full mx-auto flex flex-col 
         sm:mt-36 mt-20 c-space gap-3">
             <p className="text-blue-50 sm:text-2xl 
-            text-xl font-medium text-center font-generalsans">Hi, I'm Alexandre
+            text-xl font-medium text-center font-generalsans">Oi, sou Alexandre
                 <span className="waving-hand">👋</span></p>
                 <p className="hero_tag text-gray_gradient">
-                    Building products & Brands
+                    Construindo produtos e marcas
                 </p>
         </div>
         <div className="w-full h-full absolute inset-0 mt-20">

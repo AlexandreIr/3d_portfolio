@@ -38,11 +38,11 @@ const About = () => {
             />
 
             <div>
-              <p className="grid-headtext">Hi, I’m Alexandre Fernandes</p>
+              <p className="grid-headtext">Oi, sou Alexandre Fernandes</p>
               <p className="grid-subtext">
-                With 12 years of experience, I have honed my skills in both
-                frontend and backend dev, creating dynamic and responsive
-                websites.
+                Com ampla experiência no desenvolvimento web, aprimorei minhas
+                habilidades tanto no front quanto no back-end, criando websites
+                dinâmicos e responsivo.
               </p>
             </div>
           </div>
@@ -60,8 +60,9 @@ const About = () => {
             <div>
               <p className="grid-headtext">Tech Stack</p>
               <p className="grid-subtext">
-                I specialize in a variety of languages, frameworks, and tools
-                that allow me to build robust and scalable applications
+                Sou especialista em uma série de linguagens, frameworks, and
+                ferramentas que me permite construir soluções robustas e
+                escaláveis.
               </p>
             </div>
           </div>
@@ -96,13 +97,15 @@ const About = () => {
             </div>
             <div>
               <p className="grid-headtext">
-                I’m very flexible with time zone communications & locations
+                Sou muito flexível com fuso horários, comunicação e localização
               </p>
               <p className="grid-subtext">
-                I&apos;m based in São Paulo, Brazil and open to remote work
-                worldwide.
+                Atualmente vivo em São Paulo, Brasil, mas estou aberto a
+                trabalhar remotamente para qualquer lugar do mundo.
               </p>
-              <Button text="Contact Me" isBeam containerClass="w-full mt-10" />
+              <a href="#contact">
+                <Button text="Entre em contato" isBeam containerClass="w-full mt-10" />
+              </a>
             </div>
           </div>
         </div>
@@ -116,11 +119,11 @@ const About = () => {
             />
 
             <div>
-              <p className="grid-headtext">My Passion for Coding</p>
+              <p className="grid-headtext">Minha paixão por programação</p>
               <p className="grid-subtext">
-                I love solving problems and building things through code.
-                Programming isn&apos;t just my profession—it&apos;s my passion.
-                I enjoy exploring new technologies, and enhancing my skills.
+                Amo resolver problemas e construir soluções através do código.
+                Programar não é só minha profissão, mas também minha paixão.
+                Gosto de explorar novas tecnologias e aprimorar minhas habilidades.
               </p>
             </div>
           </div>
@@ -135,7 +138,7 @@ const About = () => {
             />
 
             <div className="space-y-2">
-              <p className="grid-subtext text-center">Contact me</p>
+              <p className="grid-subtext text-center">Entre em contato</p>
               <div className="copy-container" onClick={handleCopy}>
                 <img
                   src={hasCopied ? "assets/tick.svg" : "assets/copy.svg"}

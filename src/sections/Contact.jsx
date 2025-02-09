@@ -44,7 +44,7 @@ export const Contact = () => {
   };
 
   return (
-    <section className="c-space my-20 overflow-hidden">
+    <section className="c-space my-20 overflow-hidden" id="contact">
       <div className="relative min-h-screen flex items-center justify-center flex-col">
         <img
           src="/assets/terminal.png"
@@ -54,8 +54,8 @@ export const Contact = () => {
         <div className="contact-container p-14">
           <h3 className="head-text">Let's talk</h3>
           <p className="text-lg text-white-600 mt-3">
-            Wether you're looking to build a new website, improve your existing
-            platform, or bring a unique project to life, I'm here to help.
+            Quer você queira construir um novo site, melhorar o seu atual
+            , ou dar vida a um projeto único, estou aqui para ajudar.
           </p>
           <form
             ref={formRef}
@@ -63,7 +63,7 @@ export const Contact = () => {
             className="mt-12 flex flex-col space-y-7"
           >
             <label className="space-y-3">
-              <span className="field-label">Full name:</span>
+              <span className="field-label">Nome Completo:</span>
               <input
                 type="text"
                 name="name"
@@ -71,7 +71,7 @@ export const Contact = () => {
                 onChange={handleChange}
                 required
                 className="field-input"
-                placeholder="John Doe"
+                placeholder="João Silva"
               />
             </label>
             <label className="space-y-3">
@@ -83,7 +83,7 @@ export const Contact = () => {
                 onChange={handleChange}
                 required
                 className="field-input"
-                placeholder="john@gmail.com"
+                placeholder="joaosilva@gmail.com"
               />
             </label>
             <label className="space-y-3">
@@ -95,7 +95,7 @@ export const Contact = () => {
                 required
                 rows={5}
                 className="field-input"
-                placeholder="hello, I'm looking to build a new website..."
+                placeholder="Oi, quero construir um novo site..."
                 style={{ resize: "none" }}
               />
             </label>

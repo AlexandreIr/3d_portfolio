@@ -23,7 +23,7 @@ export const Projects = () => {
 
   return (
     <section className="c-space my-20 overflow-hidden" id="work">
-      <p className="head-text">My Work</p>
+      <p className="head-text">Meus trabalhos</p>
       <div className="grid lg:grid-cols-2 grid-cols-1 mt-12 gap-5 w-full">
         <div
           className="flex flex-col gap-5 relative sm:p-10 
@@ -67,7 +67,7 @@ export const Projects = () => {
               rel="noreferrer"
               className="flex items-center gap-2 cursor-pointer text-white-600"
             >
-              <p>Check Live site</p>
+              <p>Conferir site no ar</p>
               <img
                 src="/assets/arrow-up.png"
                 alt="arrow up"

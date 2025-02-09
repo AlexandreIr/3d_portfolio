@@ -1,22 +1,22 @@
 export const navLinks = [
   {
     id: 1,
-    name: "Home",
+    name: "Início",
     href: "#home",
   },
   {
     id: 2,
-    name: "About",
+    name: "Sobre",
     href: "#about",
   },
   {
     id: 3,
-    name: "Work",
+    name: "Trabalho",
     href: "#work",
   },
   {
     id: 4,
-    name: "Contact",
+    name: "Contato",
     href: "#contact",
   },
 ];
@@ -58,11 +58,11 @@ export const clientReviews = [
 
 export const myProjects = [
   {
-    title: "Podcastr - AI Podcast Platform",
-    desc: "Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.",
+    title: "iPhone 15 landing page",
+    desc: "Clone responsivo do site da Apple, criado com foco em replicar o design minimalista, a funcionalidade intuitiva e a experiência visual sofisticada da marca. O projeto foi desenvolvido utilizando tecnologias modernas, garantindo compatibilidade em diferentes dispositivos e atenção aos detalhes que destacam a identidade da Apple. Ideal para demonstrar habilidades em desenvolvimento front-end e design responsivo.",
     subdesc:
-      "Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.",
-    href: "https://www.youtube.com/watch?v=zfAb95tJvZQ",
+      "Construido para com animações por todo o site, feito usando react, three js e gsap para criar um site rápido, performatico, responsivo e interativo.",
+    href: "https://apple-clone-website-1j0w58pvt-alexandres-projects-83b55664.vercel.app/",
     texture: "/textures/project/project1.mp4",
     logo: "/assets/project-logo1.png",
     logoStyle: {
@@ -87,19 +87,14 @@ export const myProjects = [
         name: "TypeScript",
         path: "/assets/typescript.png",
       },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
-      },
     ],
   },
   {
-    title: "LiveDoc - Real-Time Google Docs Clone",
-    desc: "LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.",
+    title: "Xora Landing page",
+    desc: "Landing page moderna e responsiva desenvolvida para a Xora, com um design elegante que combina animações suaves e uma interface intuitiva. O site foi projetado para destacar informações de maneira clara e visualmente impactante, proporcionando uma experiência do usuário envolvente e profissional.",
     subdesc:
-      "With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.",
-    href: "https://www.youtube.com/watch?v=y5vE8y_f_OM",
+      "A pagina foi construída usando animações suaves e elegantes por toda a página, o site foi construido usando react e tailwind combinados em uma aplicação perfomatica e elegante.",
+    href: "https://xora-6kifsrw91-alexandres-projects-83b55664.vercel.app/",
     texture: "/textures/project/project2.mp4",
     logo: "/assets/project-logo2.png",
     logoStyle: {
@@ -123,11 +118,6 @@ export const myProjects = [
         id: 3,
         name: "TypeScript",
         path: "/assets/typescript.png",
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
       },
     ],
   },
@@ -270,7 +260,7 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
       ? [-10, 10, 0]
       : isTablet
       ? [-12, 10, 0]
-      : [-24, 10, 0],
+      : [-24, 15, 0],
     targetPosition: isSmall
       ? [-5, -10, -10]
       : isMobile
