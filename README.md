@@ -57,7 +57,7 @@ Agora você poderá visualizar e interagir com o portfólio diretamente no seu n
 
 Confira abaixo uma prévia do **3D Portfolio** em ação:
 
-![Demonstração do Portfólio](https://via.placeholder.com/800x400)
+![Captura de tela 2025-02-08 234403](https://github.com/user-attachments/assets/26e203d2-43ba-4d03-b9be-052ffe6ae5ca)
 
 ## 📌 Roadmap e Melhorias Futuras
 
