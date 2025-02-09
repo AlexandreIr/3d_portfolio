@@ -54,8 +54,7 @@ export const Contact = () => {
         <div className="contact-container p-14">
           <h3 className="head-text">Let's talk</h3>
           <p className="text-lg text-white-600 mt-3">
-            Quer você queira construir um novo site, melhorar o seu atual
-            , ou dar vida a um projeto único, estou aqui para ajudar.
+            Quer você queira construir um novo site, melhorar o seu atual, ou dar vida a um projeto único, estou aqui para ajudar.
           </p>
           <form
             ref={formRef}
