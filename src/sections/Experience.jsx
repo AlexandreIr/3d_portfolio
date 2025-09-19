@@ -11,7 +11,7 @@ export const Experience = () => {
   return (
     <section className="c-space my-20">
       <div className="w-full text-white-600">
-        <h3 className="head-text">My work Experience</h3>
+        <h3 className="head-text">Experiências</h3>
         <div className="work-container">
           <div className="work-canvas">
             <Canvas>

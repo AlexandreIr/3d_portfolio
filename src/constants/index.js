@@ -11,7 +11,7 @@ export const navLinks = [
   },
   {
     id: 3,
-    name: "Trabalho",
+    name: "Trabalhos",
     href: "#work",
   },
   {
@@ -24,37 +24,38 @@ export const navLinks = [
 export const clientReviews = [
   {
     id: 1,
-    name: "Emily Johnson",
-    position: "Marketing Director at GreenLeaf",
+    name: "Emily Silva",
+    position: "Diretora de Marketing",
     img: "assets/review1.png",
     review:
-      "Working with Alexandre was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
+      "Trabalhar com Alexandre foi uma experiência fantástica. Ele transformou nosso site desatualizado em uma plataforma moderna e intuitiva. Sua atenção aos detalhes e compromisso com a qualidade são incomparáveis. Recomendo fortemente para qualquer projeto de desenvolvimento web.",
   },
   {
     id: 2,
-    name: "Mark Rogers",
-    position: "Founder of TechGear Shop",
+    name: "Marcos Barbosa",
+    position: "Empresário",
     img: "assets/review2.png",
     review:
-      "Alexandre`s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.",
+      "A expertise de Alexandre em desenvolvimento web é realmente impressionante. Ele entregou uma solução robusta e escalável para nosso e-commerce, e nossas vendas online aumentaram significativamente desde o lançamento. Um verdadeiro profissional! Trabalho fantástico.",
   },
   {
     id: 3,
-    name: "John Dohsas",
-    position: "Project Manager at UrbanTech ",
+    name: "João Dornelles",
+    position: "Gerente",
     img: "assets/review3.png",
     review:
-      "I can’t say enough good things about Alexandre. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+      "Não tenho palavras para descrever o excelente trabalho de Alexandre. Ele conseguiu transformar requisitos complexos em um site funcional e intuitivo. Suas habilidades de resolução de problemas são excepcionais.",
   },
   {
     id: 4,
-    name: "Ether Smith",
-    position: "CEO of BrightStar Enterprises",
+    name: "Esther Santos Souza",
+    position: "Contadora",
     img: "assets/review4.png",
     review:
-      "Alexandre was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.",
+      "Foi um prazer trabalhar com Alexandre. Ele entendeu perfeitamente nossos requisitos e entregou um site que superou nossas expectativas. Suas habilidades em desenvolvimento frontend e backend são de alto nível.",
   },
 ];
+
 
 export const myProjects = [
   {
@@ -274,32 +275,22 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: "Framer",
-    pos: "Lead Web Developer",
-    duration: "2022 - Present",
+    name: "AFSilva",
+    pos: "Desenvolvedor web",
+    duration: "2022 - Atualmente",
     title:
-      "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: "/assets/framer.svg",
+      "Sou freelancer em desenvolvimento web com foco em React e Next js. Sou especialista na criação de layouts dinamicos, reponsivos e interativos para site e aplicativos.",
+    icon: "/assets/AFSilva2.png",
     animation: "victory",
   },
   {
     id: 2,
-    name: "Figma",
-    pos: "Web Developer",
+    name: "Wordpress",
+    pos: "Web designer",
     duration: "2020 - 2022",
     title:
-      "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: "/assets/figma.svg",
+      "Antes de trabalhar com código, eu já trabalhava com criação de sites e landing pages em wordpress, uma plataforma open source low/no code para criação de sites.",
+    icon: "/assets/wp-logo.svg",
     animation: "clapping",
-  },
-  {
-    id: 3,
-    name: "Notion",
-    pos: "Junior Web Developer",
-    duration: "2019 - 2020",
-    title:
-      "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    icon: "/assets/notion.svg",
-    animation: "salute",
   },
 ];
