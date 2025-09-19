@@ -31,7 +31,7 @@ export const Contact = () => {
         },
         "9Z_MeKb2vdtlB2zMR"
       );
-      alert("Your message has been sent!");
+      alert("Sua mensagem foi enviada com sucesso!");
       setFormState({ name: "", email: "", message: "" });
     } catch (error) {
       console.log(error);
