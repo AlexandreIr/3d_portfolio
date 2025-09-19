@@ -5,9 +5,9 @@ export const Footer = () => {
     flex justify-between items-center flex-wrap gap-5"
     >
       <div className="text-white-500 flex gap-2">
-        <p>Terms & Conditions</p>
+        <p>Termos & Condições</p>
         <p>|</p>
-        <p>Privacy Policy</p>
+        <p>Política de privacidade</p>
       </div>
       <div className="flex gap-3">
         <div className="social-icon hover:border-2 hover:border-white transition-colors duration-500">

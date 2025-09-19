@@ -35,7 +35,7 @@ export const Contact = () => {
       setFormState({ name: "", email: "", message: "" });
     } catch (error) {
       console.log(error);
-      alert("Something went wrong, please try again.");
+      alert("Algo deu errado, por favor tente novamente");
     } finally {
       setTimeout(() => {
         setLoading(false);
@@ -99,7 +99,7 @@ export const Contact = () => {
               />
             </label>
             <button className="field-btn" type="submit" disabled={loading}>
-              {loading ? "Loading..." : "Send messsage"}
+              {loading ? "Carregando..." : "Enviar Mensagem"}
               <img
                 src="/assets/arrow-up.png"
                 alt="flecha"
