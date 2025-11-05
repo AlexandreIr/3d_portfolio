@@ -64,8 +64,8 @@ export const myProjects = [
     subdesc:
       "Construido para com animações por todo o site, feito usando react, three js e gsap para criar um site rápido, performatico, responsivo e interativo.",
     href: "https://apple-clone-website-1j0w58pvt-alexandres-projects-83b55664.vercel.app/",
-    texture: "/textures/project/project1.mp4",
-    logo: "/assets/project-logo1.png",
+    texture: "/textures/project/projectAppleLP.mp4",
+    logo: "/assets/apple.svg",
     logoStyle: {
       backgroundColor: "#2A1816",
       border: "0.2px solid #36201D",
@@ -96,8 +96,8 @@ export const myProjects = [
     subdesc:
       "A pagina foi construída usando animações suaves e elegantes por toda a página, o site foi construido usando react e tailwind combinados em uma aplicação perfomatica e elegante.",
     href: "https://xora-6kifsrw91-alexandres-projects-83b55664.vercel.app/",
-    texture: "/textures/project/project2.mp4",
-    logo: "/assets/project-logo2.png",
+    texture: "/textures/project/XoraLP.mp4",
+    logo: "/assets/xora.png",
     logoStyle: {
       backgroundColor: "#13202F",
       border: "0.2px solid #17293E",
@@ -123,13 +123,13 @@ export const myProjects = [
     ],
   },
   {
-    title: "CarePulse - Health Management System",
-    desc: "An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.",
+    title: "Zentry",
+    desc: "O Zentry Web é um site moderno e imersivo desenvolvido com Next.js, React e Tailwind CSS",
     subdesc:
-      "With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.",
-    href: "https://www.youtube.com/watch?v=lEflo_sc82g",
+      "Projetado para oferecer uma experiência visual futurista e altamente responsiva. O projeto demonstra domínio em componentização, animações com Framer Motion, otimização de performance e boas práticas de UI/UX, resultando em uma interface fluida, elegante e tecnicamente refinada.",
+    href: "https://zentry-web.vercel.app/",
     texture: "/textures/project/project3.mp4",
-    logo: "/assets/project-logo3.png",
+    logo: "/assets/zentry.png",
     logoStyle: {
       backgroundColor: "#60f5a1",
       background:
@@ -162,7 +162,7 @@ export const myProjects = [
     ],
   },
   {
-    title: "Horizon - Online Banking Platform",
+    title: "Fretai",
     desc: "Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.",
     subdesc:
       "Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.",
