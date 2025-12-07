@@ -11,7 +11,7 @@ import Cube from "../components/Cube"
 import Rings from "../components/Ring"
 import HeroCamera from "../components/HeroCamera"
 import Button from "../components/Button"
-import Target from "../components/Targer"
+// import Target from "../components/Target"
 
 /* eslint-disable react/no-unescaped-entities */
 function Hero() { 
