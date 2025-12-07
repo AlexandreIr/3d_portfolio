@@ -1,4 +1,4 @@
-/* eslint-disable react/no-unknown-property */
+
 import { PerspectiveCamera } from "@react-three/drei"
 import { Canvas } from "@react-three/fiber"
 import  HackerRoom  from "../components/HackerRoom"
@@ -13,7 +13,7 @@ import HeroCamera from "../components/HeroCamera"
 import Button from "../components/Button"
 // import Target from "../components/Target"
 
-/* eslint-disable react/no-unescaped-entities */
+
 function Hero() { 
 
     const isSmall = MediaQuery({maxWidth: 480});
