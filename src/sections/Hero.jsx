@@ -11,7 +11,7 @@ import Cube from "../components/Cube"
 import Rings from "../components/Ring"
 import HeroCamera from "../components/HeroCamera"
 import Button from "../components/Button"
-// import Target from "../components/Target"
+import { Target } from "../components/Target"
 
 
 function Hero() { 
@@ -46,7 +46,7 @@ function Hero() {
                         Math.PI, 0]}/>
                     </HeroCamera>
                     <group>
-                        {/* <Target position={sizes.targetPosition}/>	 */}
+                        <Target position={sizes.targetPosition}/>	
                         <ReactLogo position={sizes.reactLogoPosition}/>
                         <Cube position={sizes.cubePosition}/>
                         <Rings position={sizes.ringPosition}/>
